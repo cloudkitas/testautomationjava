@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Practice Suite">
+<!--    <listeners>-->
+<!--        <listener class-name="main.java.com.intelitesting.utils.SuiteListener" />-->
+<!--    </listeners>-->
+    <test name="Sample Test 1">
+        <parameter name="browserName" value="chrome"/>
+        <classes>
+            <class name="test.java.com.intelitesting.SampleTest"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
